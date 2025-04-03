@@ -7,7 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import pandas as pd
 import spacy
 
-# Load NLP model
+# Load NLP models
 nlp = spacy.load("en_core_web_sm")
 
 chrome_options = Options()
